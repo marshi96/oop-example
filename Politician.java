@@ -13,7 +13,7 @@ public class Politician implements Speaker{
     @Override
     public void speak()
     {
-        System.oout.println("speak1");
+        System.out.println("speak1");
     }
     public void speech()
     {
