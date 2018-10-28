@@ -1,0 +1,18 @@
+package interfaces;
+
+/**
+ *
+ * @author User
+ */
+public class Test {
+    public static void main(String[] args) {
+        Lecturer ob =new Lecturer();
+                ob.speak();
+                ob.teach();
+        Singer ob1=new Singer("tharindu");
+                ob1.speak();
+                ob1.sing();
+        //Singer ob1=new Singer("tharindu");
+        
+    }
+}
